@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Order - Customer</title>
+  <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+  <h1>Welcome, Customer! Browse Menu</h1>
+  <div id="menu-list"></div> <!-- Placeholder for dynamic menus from API -->
+  <div id="cart"></div> <!-- Simple cart display -->
+  <button onclick="placeOrder()">Submit Order</button>
+  <script src="../static/script.js"></script>
+  <script>
+    // Load menus on page load (stub for Phase 3 API)
+    window.onload = function() {
+      fetchMenus(); // Call function from script.js
+    };
+  </script>
+</body>
+</html>
